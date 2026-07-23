@@ -737,7 +737,7 @@ const showSettingsModal = ref(false)
 // View mode
 const viewMode = ref('chat')
 const isChatPanelOpen = ref(true)
-const isRightPanelOpen = ref(false)
+const isRightPanelOpen = ref(true)
 
 // WebSocket reference
 let ws = null
